@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white; /* Optional: Make the text readable */
+  }
+  
+  .container {
+    background-color: black;
+  }
+  
+  .container {
+    padding: 1rem 0;
+    background-color: black;
+  }
+  
+  .genre-title {
+    color: #ffc107; /* Bootstrap warning color */
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+  
+  .movie-card {
+    background-color: #020202; /* Bootstrap dark color */
+    color: #ffffff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    color: #f30808;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 240px;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    margin-right: 0.5rem;
+  }
+  
