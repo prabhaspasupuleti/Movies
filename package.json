@@ -1,5 +1,5 @@
 {
-  "homepage":"https://(prabhaspasupuleti).github.io/(Movies)",
+  "homepage": "https://prabhaspasupuleti.github.io/Movies",
   "name": "redux",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,8 @@
     "axios": "^1.8.3",
     "bootstrap": "^5.3.3",
     "framer-motion": "^12.5.0",
+    "gh": "^2.8.9",
+    "pages": "^0.0.16",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0",
@@ -44,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

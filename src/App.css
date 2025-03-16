@@ -1,30 +1,117 @@
+/* General Styles */
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #000000; /* Dark background for a cinematic feel */
-  color: #ffffff; /* White text for contrast */
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+.App {
+  padding: 1rem;
+  margin-top: 60px; /* Ensures content starts below the navbar */
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
-button {
-  cursor: pointer;
-  background-color: #e50914; /* Netflix red */
-  color: #ffffff;
-  border: none;
+.navbar .left-section input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  padding: 10px 20px;
-  font-size: 16px;
 }
 
-button:hover {
-  background-color: #b20710; /* Darker red on hover */
+.navbar .left-section button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar .left-section button:hover {
+  background-color: #e64a19;
+}
+
+.navbar .right-section button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar .right-section button:hover {
+  background-color: #333;
+}
+
+/* UserIntro Page Styles */
+.user-intro-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.user-intro-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.user-intro-container p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.user-intro-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-intro-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Home Page Styles */
+.home-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-container h1 {
+  font-size: 2rem;
+  color: #444;
+}
+
+.home-container p {
+  font-size: 1rem;
+  color: #666;
 }
